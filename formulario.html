@@ -1,0 +1,111 @@
+<html>
+    <head>
+        <title>
+            Pagina Principal
+        </title>
+    </head>
+<body bgcolor="#EBE3E1">
+
+    <header style="display: flex; align-items: center; justify-content: space-between; padding: 0 0 0 25px; background-color: #EBE3E1; height: 160px; overflow: hidden; border-bottom: 2px solid #B5A8A1;">
+
+    <div style="display: flex; align-items: center; gap: 22px;">
+        <img src="imagenes/escudoRatzinger.svg" width="100" height="130">
+        <div >
+            <h1 style="margin: 0; font-family: 'Segoe UI', sans-serif; font-size: 35px; color: #1a1a1a;">
+                Benedicto XVI: Obras y Pensamientos
+            </h1>
+            <p style="margin: 0; font-family: 'Georgia', serif; font-size: 19px; color: #333333;">
+                <em>"Cooperatores Veritatis"</em>
+            </p>
+        </div>
+    </div>
+
+    <div style="height: 100%; align-self: flex-end;">
+        <img src="imagenes/ratzingerPNG_2.png" style="height: 100%; width: auto; display: block; mix-blend-mode: multiply; opacity: 0.6;">
+    </div>
+
+    </header>
+
+    <div style=
+    "background: linear-gradient(135deg, #C7C1BC 0%, #f3eeed 100%); border: 2px solid #F1E28E; border-radius: 35px; width: 80%; max-width: 800px; margin: 40px auto; display: flex; overflow: hidden; position: relative;  min-height: 250px; align-items: center;"
+    >
+    
+        <div style="padding: 30px; z-index: 1; flex: 1;">
+        <h1 style="font-family: 'Times New Roman', serif;  font-size: 45px; margin: 0 0 20px 0;">
+            Unirse a Cooperatores
+        </h1>   
+
+        <h1 style="font-family: 'SEGOE UI', serif; font-style: italic; font-size: 20px; margin: 0 0 20px 0;">
+            Regístrate para colaborar en la difusión del pensamiento de Ratzinger.
+        </h1>     
+          
+         <br><br>
+    <form action="mailto:cruz.jorge.cbtis271@gmail.com" method="post" enctype="text/plain">
+
+         Usuario: <input type="text" name="usuario"  size="30" maxlength="30 "placeholder="Ej: Xx_SalvaPro123_xX" required>
+            <br><br>
+        Nombres: <input type="text" name="nombres" placeholder="Ej: Salvador"  size="40" maxlength="50" required>
+           <br><br>
+        Apellido Paterno: <input type="text" name="apepat" size="50"  placeholder="Ej: Maldonado" maxlength="50" required>
+           <br><br>
+        Apellido Materno: <input type="text" name="apemat" size="50" maxlength="50"  placeholder="Ej: Aguilar" required>
+           <br><br>
+           Correo:  <input type="email" name="correo" size="50"  maxlength="50"  placeholder="Ej: micorreo@gmail.com" required>
+           <br><br>
+
+           Fecha de Nacimiento <input type="date" name="fecha_nacimiento">
+           <br><br>
+           Obra Favorita
+           <br>
+           <select name="obra_preferida">
+                    <option value="introduccion">Introducción al Cristianismo</option>
+                    <option value="jesus">Jesús de Nazaret</option>
+                    <option value="liturgia">El Espíritu de la Liturgia</option>
+                    <option value="otro">Otras obras teológicas</option>
+         </select>
+
+         <br><br>
+         Como pretendes participar 
+         <br>
+                    <input type="radio" id="investigador" name="tipo_perfil" value="investigador" checked>
+                    <label for="investigador" style="font-weight:normal">Investigador</label>
+                    
+                    <input type="radio" id="lector" name="tipo_perfil" value="lector">
+                    <label for="lector" style="font-weight:normal">Lector</label>
+
+                    <br>
+                    <br>
+                    <input type="checkbox" id="boletin" name="boletin" checked>
+                   Deseo recibir actualizaciones semanales
+
+                   <br><br>
+
+                   ¿Por qué te interesa el pensamiento de Benedicto XVI?
+                   <br>
+                    <textarea name="motivo" rows="3" placeholder="Cuéntanos brevemente tu interés..."></textarea>
+
+
+                    <br><br>
+                    <input type="submit" value="Enviar Formulario">
+             <input type="reset" value="Limpiar formulario">
+             <br><br>
+
+
+             <a href="index.html" class="volver">Volver al Inicio</a>
+        </form>
+
+         </div>
+         
+        
+
+        
+        
+    
+    
+        </div>
+
+    </div>
+    
+
+</body>
+</html>
